@@ -81,12 +81,18 @@ body {
 .four,
 .five {
   background-color: hsl(216deg 12% 54% / 38%);
-  padding: 20px;
+  /* padding: 20px; */
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-s);
   color: var(--Light-Grey);
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .one:hover,
